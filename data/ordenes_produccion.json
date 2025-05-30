@@ -1,2 +1,34 @@
 [
+    {
+        "numero_op": "001",
+        "cliente": "OMER S.A.C",
+        "producto": "BOTELLAS DE CERVEZA",
+        "cantidad": 0,
+        "fecha_entrega": "2025-05-31",
+        "dias_restantes": 2,
+        "etapas": [
+            "EN COLA",
+            "DISENO",
+            "C. CONVERSION",
+            "C. GUILLOTINA",
+            "IPRES. KOMORY",
+            "TROQUELADO 1",
+            "PEGADO MANUAL",
+            "CONT. DE CALIDAD",
+            "TRASPORTE",
+            "TERMINADOS"
+        ],
+        "estado_actual": "PEGADO MANUAL",
+        "planificacion": {},
+        "historial": [
+            {
+                "etapa": "EN COLA",
+                "inicio": "2025-05-29T22:38:35.939277",
+                "fin": null,
+                "observacion": null
+            }
+        ],
+        "imagen_op": "files/imagenes_op\\001_BOTELLAS_DE_CERVEZA.png",
+        "color_alerta": "orange"
+    }
 ]

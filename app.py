@@ -7,6 +7,7 @@ import historial
 import json
 import os
 import alertas
+import trazabilidad
 
 st.set_page_config(
     page_title="OmLean - Sistema Kanban",
@@ -54,7 +55,7 @@ else:
     mostrar_usuario_rol_logout()
     alertas.mostrar_notificaciones(st.session_state['usuario'])  # <- NUEVO
 
-    tabs = st.tabs(["⚙️ Etapas", "➕ Crear OP", "📊 Kanban", "📁 Historial", "👥 Usuarios"])
+    tabs = st.tabs(["⚙️ Etapas", "➕ Crear OP", "📊 Kanban", "📁 Historial", "👥 Usuarios","🔍 Trazabilidad"])
 
     with tabs[0]:
         if st.session_state['rol'] in ["administrador", "planificador"]:
@@ -87,5 +88,11 @@ else:
         if st.session_state['rol'] == "administrador":
             login.registrar_usuario()
             login.administrar_usuarios()
+        else:
+            st.warning("No tienes permiso para ver esta sección.")
+
+    with tabs[5]:
+        if st.session_state['rol'] in ["administrador", "planificador"]:
+            trazabilidad.mostrar_trazabilidad()
         else:
             st.warning("No tienes permiso para ver esta sección.")

@@ -15,13 +15,6 @@ ALERTAS_FILE = "data/alertas_pendientes.json"
 EVIDENCIA_DIR = "evidencias"
 IMAGENES_DIR = Path("files/imagenes_op")  # Usamos pathlib para mayor compatibilidad
 
-
-
-
-
-
-
-
 def cargar_etapas():
     if os.path.exists(ETAPAS_FILE):
         with open(ETAPAS_FILE, "r", encoding="utf-8") as f:
@@ -221,8 +214,8 @@ def tablero_kanban():
 
                                 
                         st.markdown("---")
-                        st.markdown("🔁 **Dividir o duplicar OP**")
-                        if st.checkbox("➕ Dividir esta OP", key=f"dividir_{op['numero_op']}"):
+                        st.markdown("🔁 **Duplicar OP**")
+                        if st.checkbox("➕ Dividir OP", key=f"dividir_{op['numero_op']}"):
                             num_subops = st.number_input("¿En cuántas partes quieres dividir esta OP?", min_value=2, max_value=10, step=1, key=f"n_partes_{op['numero_op']}")
 
                             cantidades = []

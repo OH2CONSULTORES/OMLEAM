@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "numero_op": "001",
+    "cliente": "OMER S.A.C",
+    "producto": "BOTELLAS DE CERVEZA",
+    "fecha": "2025-05-29T23:01:15.881309",
+    "usuario": "admin",
+    "etapa": "IPRES. KOMORY",
+    "tipo_alerta": "Falta de material o sin OP física",
+    "color": "orange",
+    "comentario": "se pago 23 soles por trasporte",
+    "foto_nombre": "001_IPRES. KOMORY_a1be8bc327fb499793fd8be564fb4455.jpg"
+  }
+]

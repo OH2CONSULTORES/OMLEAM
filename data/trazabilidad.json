@@ -1,3 +1,124 @@
 [
-
+    {
+        "op": "001",
+        "fecha": "2025-05-29T22:45:43.139697",
+        "usuario": "admin",
+        "etapa_anterior": "EN COLA",
+        "etapa_nueva": "DISENO",
+        "datos_etapa": {
+            "mt_utilizada": 0,
+            "merma": 0,
+            "cantidad_final": 0,
+            "setup_time": null,
+            "cycle_time": null,
+            "idle_time": null,
+            "tiempo_total": null,
+            "personas": null
+        }
+    },
+    {
+        "op": "001",
+        "fecha": "2025-05-29T22:57:46.065514",
+        "usuario": "admin",
+        "etapa_anterior": "DISENO",
+        "etapa_nueva": "DISENO",
+        "tipo_alerta": "Máquina malograda",
+        "comentario": "",
+        "foto_nombre": null
+    },
+    {
+        "op": "001",
+        "fecha": "2025-05-29T22:58:10.501156",
+        "usuario": "admin",
+        "etapa_anterior": "DISENO",
+        "etapa_nueva": "C. CONVERSION",
+        "datos_etapa": {
+            "mt_utilizada": 0,
+            "merma": 0,
+            "cantidad_final": 0,
+            "setup_time": null,
+            "cycle_time": null,
+            "idle_time": null,
+            "tiempo_total": null,
+            "personas": null
+        }
+    },
+    {
+        "op": "001",
+        "fecha": "2025-05-29T22:58:48.211226",
+        "usuario": "admin",
+        "etapa_anterior": "C. CONVERSION",
+        "etapa_nueva": "C. GUILLOTINA",
+        "datos_etapa": {
+            "mt_utilizada": 0,
+            "merma": 0,
+            "cantidad_final": 0,
+            "setup_time": null,
+            "cycle_time": null,
+            "idle_time": null,
+            "tiempo_total": null,
+            "personas": 5
+        }
+    },
+    {
+        "op": "001",
+        "fecha": "2025-05-29T23:00:01.476236",
+        "usuario": "admin",
+        "etapa_anterior": "C. GUILLOTINA",
+        "etapa_nueva": "IPRES. KOMORY",
+        "datos_etapa": {
+            "mt_utilizada": 0,
+            "merma": 0,
+            "cantidad_final": 0,
+            "setup_time": null,
+            "cycle_time": null,
+            "idle_time": null,
+            "tiempo_total": null,
+            "personas": 5
+        }
+    },
+    {
+        "op": "001",
+        "fecha": "2025-05-29T23:01:15.881309",
+        "usuario": "admin",
+        "etapa_anterior": "IPRES. KOMORY",
+        "etapa_nueva": "IPRES. KOMORY",
+        "tipo_alerta": "Falta de material o sin OP física",
+        "comentario": "se pago 23 soles por trasporte",
+        "foto_nombre": "001_IPRES. KOMORY_a1be8bc327fb499793fd8be564fb4455.jpg"
+    },
+    {
+        "op": "001",
+        "fecha": "2025-05-29T23:01:26.160403",
+        "usuario": "admin",
+        "etapa_anterior": "IPRES. KOMORY",
+        "etapa_nueva": "TROQUELADO 1",
+        "datos_etapa": {
+            "mt_utilizada": 0,
+            "merma": 0,
+            "cantidad_final": 0,
+            "setup_time": null,
+            "cycle_time": null,
+            "idle_time": null,
+            "tiempo_total": null,
+            "personas": null
+        }
+    },
+    {
+        "op": "001",
+        "fecha": "2025-05-30T01:12:36.674323",
+        "usuario": "admin",
+        "etapa_anterior": "TROQUELADO 1",
+        "etapa_nueva": "PEGADO MANUAL",
+        "datos_etapa": {
+            "mt_utilizada": 0,
+            "merma": 0,
+            "cantidad_final": 0,
+            "setup_time": null,
+            "cycle_time": null,
+            "idle_time": null,
+            "tiempo_total": null,
+            "personas": null
+        }
+    }
 ]

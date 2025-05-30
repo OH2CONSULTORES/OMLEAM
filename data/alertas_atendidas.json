@@ -1,2 +1,16 @@
 [
+  {
+    "numero_op": "001",
+    "cliente": "OMER S.A.C",
+    "producto": "BOTELLAS DE CERVEZA",
+    "fecha": "2025-05-29T22:57:46.065514",
+    "usuario": "admin",
+    "etapa": "DISENO",
+    "tipo_alerta": "Máquina malograda",
+    "color": "red",
+    "comentario": "",
+    "foto_nombre": null,
+    "atendida_por": "admin",
+    "fecha_atendida": "2025-05-29T22:58:19.641601"
+  }
 ]
