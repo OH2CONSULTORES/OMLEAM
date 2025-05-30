@@ -3,3 +3,4 @@ bcrypt
 pandas
 Pillow
 pymupdf
+matplotlib
